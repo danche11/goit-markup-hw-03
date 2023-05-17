@@ -1,0 +1,224 @@
+:root {
+  --logo-color: #4D5AE5;
+  --text-color: #2E2F42;
+  --address-color: #434455;
+  --portfolio-button-color: #F4F4FD;
+  --hover-link-color: #404BBF;
+  --team-color: #F4F4FD;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+/*-------------------------------- HEADER ------------------------*/
+
+.header-logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color)
+}
+
+.header-logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+
+}
+
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: var(--hover-link-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--address-color);
+}
+
+.header-address-item:hover,
+.header-address-item:focus {
+  color: var(--hover-link-color);
+}
+
+/*-------------------------------- HERO ------------------------------*/
+
+.hero {
+  background-color: var(--text-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+
+}
+
+.hero-button {
+  background-color: var(--logo-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-link-color);
+}
+
+/*-------------------------------- FEATURES -----------------*/
+
+.features-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--address-color);
+}
+
+/*------------------------------- SPECIALTY -------------------------*/
+
+.specialty-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+
+/* ------------------------------TEAM ---------------------*/
+
+.team {
+  background-color: var(--team-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+
+.team-card {
+  background-color: #fff;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.team-text {
+  color: var(--address-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*--------------------------- FOOTER ---------------------*/
+
+.footer {
+  background-color: var(--text-color);
+}
+
+.footer-logo-studio {
+  color: var(--team-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--team-color);
+}
+
+
+
+/* ------------PORTFOLIO------------- */
+/* ------------PORTFOLIO------------- */
+/* ------------PORTFOLIO------------- */
+/* ------------PORTFOLIO------------- */
+/* ------------PORTFOLIO------------- */
+
+
+.portf-button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--portfolio-button-color);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.portf-button-item:hover,
+.portf-button-item:focus {
+  background-color: var(--hover-link-color);
+  color: #fff;
+}
