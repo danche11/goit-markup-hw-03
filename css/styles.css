@@ -23,6 +23,28 @@ body {
 }
 
 /*-------------------------------- HEADER ------------------------*/
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-bottom: 1px solid #E7E9FC
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
 
 .header-logo-web {
   font-family: 'Raleway', sans-serif;
@@ -34,6 +56,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
   color: var(--logo-color)
 }
 
@@ -50,13 +73,19 @@ body {
   color: var(--text-color);
 }
 
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
   color: var(--text-color);
-
 }
 
 .header-nav-item:hover,
@@ -66,6 +95,12 @@ body {
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-address-item {
@@ -85,6 +120,15 @@ body {
 
 .hero {
   background-color: var(--text-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  height: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
 }
 
 .hero-title {
@@ -92,6 +136,10 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   color: #FFFFFF;
 
 }
@@ -104,6 +152,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   color: #FFFFFF;
   cursor: pointer;
 }
@@ -115,11 +176,26 @@ body {
 
 /*-------------------------------- FEATURES -----------------*/
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-content {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--text-color);
 }
 
@@ -133,6 +209,10 @@ body {
 
 /*------------------------------- SPECIALTY -------------------------*/
 
+.specialty {
+  padding-bottom: 120px;
+}
+
 .specialty-title {
   font-weight: 700;
   font-size: 36px;
@@ -140,13 +220,25 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  margin-top: 120px;
   color: var(--text-color);
+}
+
+.specialty-list {
+  display: flex;
+  gap: 24px;
+}
+
+.specialty-photo {
+  width: calc((100% - 48px) / 3);
 }
 
 /* ------------------------------TEAM ---------------------*/
 
 .team {
   background-color: var(--team-color);
+  padding: 120px 0;
 }
 
 .team-title {
@@ -157,10 +249,23 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-color);
+  margin-bottom: 72px;
+  padding-top: 120px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-card {
   background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+  padding: 0px 0px 32px;
 }
 
 .team-name {
@@ -168,6 +273,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
   color: var(--text-color);
 }
 
@@ -176,6 +283,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -183,6 +291,8 @@ body {
 
 .footer {
   background-color: var(--text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-studio {
@@ -194,6 +304,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
   color: var(--team-color);
 }
 
