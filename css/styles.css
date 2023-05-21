@@ -278,14 +278,14 @@ body {
   gap: 24px;
 }
 
-.team-card-item {
+.team-card {
   background-color: #fff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-info {
-  padding: 0px 0px 32px;
+  padding: 32px 16px
 }
 
 .team-name {
@@ -305,6 +305,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  padding-bottom: 32px;
   letter-spacing: 0.02em;
 }
 
@@ -314,6 +315,19 @@ body {
   background-color: var(--text-color);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  margin-right: 76px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-studio {
@@ -326,7 +340,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 16px;
   color: var(--team-color);
 }
 
