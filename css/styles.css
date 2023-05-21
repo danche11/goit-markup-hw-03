@@ -376,6 +376,7 @@ body {
 .portf-button-item:focus {
   background-color: var(--hover-link-color);
   color: #fff;
+  border: 1px solid transparent;
 }
 
 .portf-card-list {
