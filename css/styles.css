@@ -278,10 +278,11 @@ body {
   gap: 24px;
 }
 
-.team-card {
+.team-card-item {
   background-color: #fff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-info {
@@ -295,6 +296,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
+  padding-top: 32px;
   color: var(--text-color);
 }
 
@@ -325,6 +327,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  padding-top: 16px;
   color: var(--team-color);
 }
 
