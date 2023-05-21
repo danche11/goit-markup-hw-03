@@ -279,6 +279,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  align-items: flex-start;
 }
 
 .team-card {
